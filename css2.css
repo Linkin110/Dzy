@@ -1,0 +1,140 @@
+* { margin:0; padding:0}
+body { font-size:12px;}
+ul { list-style-type:none}
+a { text-decoration:none;}
+
+/*以下是一级导航*/
+.nav {
+	margin: 0 auto;
+	width:900px; 
+	height:30px; 
+	background-color:#b4b4b4
+}
+
+.nav ul li { 
+	width:100px; 
+	height:30px; 
+	float:left; 
+	position:relative;
+}
+
+.nav ul li a {
+	display:block;
+	width:96px; 
+	border:0px solid; 
+	height:26px; 
+	line-height:26px; 
+	text-align:center;
+}
+
+.nav ul li a:hover { 
+	background-color:#0033FF;
+}
+
+/*以下是二级导航*/
+.nav ul li ul { 
+	display:none
+}
+
+.nav ul li:hover ul { 
+	display:block; 
+	width:100px; 
+	position:absolute; 
+	top:30px; left:0;
+	background-color:#b4b4b4
+}
+
+.nav ul li:hover ul li { 
+	width:100px; 
+	height:30px; 
+	position:relative; 
+}
+
+.nav ul li:hover ul li a { 
+	display:block; 
+	width:96px; 
+	height:26px; 
+	line-height:26px; 
+	border:0px solid; 
+	text-align:center; 
+}
+
+.nav ul li:hover ul li a:hover { 
+	background-color:#006666
+}
+
+/*以下是三级导航*/
+.nav ul li:hover ul li ul { 
+	display:none
+}
+
+.nav ul li:hover ul li:hover ul{ 
+	display:block; 
+	width:100px; 
+	position:absolute; 
+	top:0px; 
+	left:100px;
+	background-color:#b4b4b4
+}
+
+.nav ul li:hover ul li:hover ul li { 
+	width:100px; 
+	height:30px; 
+}
+
+.nav ul li:hover ul li:hover ul li a { 
+	display:block; 
+	width:96px; 
+	height:26px; 
+	line-height:26px; 
+	border:0px solid; 
+	text-align:center; 
+}
+
+.nav ul li:hover ul li:hover ul li a:hover { 
+	background-color:#00CC00
+}
+
+
+.nav ul li:hover ul .nav_jw ul { 
+	display:none
+}
+
+.nav ul li:hover ul .nav_jw:hover ul{ 
+	display:block; 
+	width:100px; 
+	position:absolute; 
+	top:0px; 
+	left:-100px;
+	background-color:#b4b4b4
+}
+
+.nav ul li:hover ul .nav_jw:hover ul li { 
+	width:100px; 
+	height:30px; 
+}
+
+.nav ul li:hover ul .nav_jw:hover ul li a { 
+	display:block; 
+	width:96px; 
+	height:26px; 
+	line-height:26px; 
+	border:0px solid; 
+	text-align:center; 
+}
+
+.nav ul li:hover ul .nav_jw:hover ul li a:hover { 
+	background-color:#00CC00
+}
+
+
+body { background:rgb(74,81,85); }
+div#menu { margin:5px auto; }
+div#copyright {
+    font:11px 'Trebuchet MS';
+    color:#222;
+    text-indent:30px;
+    padding:40px 0 0 0;
+}
+div#copyright a { color:#aaa; }
+div#copyright a:hover { color:#222; 
